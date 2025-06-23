@@ -19,8 +19,8 @@ def book_tee_time_automated(month, day, year, desired_time):
     username = driver.find_element(By.NAME, "user_name")
     password = driver.find_element(By.NAME, "password")
 
-    username.send_keys("190") # INPUT YOUR MEMBER NUMBER
-    password.send_keys("Dunning") # INPUT YOUR LAST NAME
+    username.send_keys("xx") # INPUT YOUR MEMBER NUMBER
+    password.send_keys("xx") # INPUT YOUR LAST NAME
 
     sign_in_button = driver.find_element(By.CLASS_NAME, "button-primary")
     sign_in_button.click()
